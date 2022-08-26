@@ -38,7 +38,7 @@ function hastBeenPlayedTogether(gameId, gameName, usersPlays) {
 }
 
 async function main() {
-  let data = loadFromFile();
+  let data = loadFromFile('./cache.json');
   if (!data) {
     data = await loadFromBgg();
     saveToFile(data);
@@ -62,7 +62,8 @@ async function main() {
     }
   });
   console.log('GamesToPlay:', JSON.stringify(data.toBePlayed, null, 2));
-  saveToFile(data);
+  saveToFile('./cache.json', data);
+  saveToFile('./2play.json', data.toBePlayed);
   generateMarkdownPlayMe(data.toBePlayed);
 }
 
