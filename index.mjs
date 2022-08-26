@@ -1,5 +1,6 @@
 import { loadFromBgg } from './bgg.mjs';
 import { loadFromFile, saveToFile } from './cache.mjs';
+import { generateMarkdownPlayMe } from './markdown.mjs';
 
 function hastBeenPlayedTogether(gameId, gameName, usersPlays) {
   const leftSidePLays = usersPlays[0].filter(
@@ -62,6 +63,7 @@ async function main() {
   });
   console.log('GamesToPlay:', JSON.stringify(data.toBePlayed, null, 2));
   saveToFile(data);
+  generateMarkdownPlayMe(data.toBePlayed);
 }
 
 await main();

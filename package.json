@@ -12,6 +12,7 @@
   "dependencies": {
     "bgg-xml-api-client": "0.1.10",
     "i": "0.3.7",
+    "json2md": "1.12.0",
     "lodash.differencewith": "4.5.0",
     "npm": "8.18.0"
   }
