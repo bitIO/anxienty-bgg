@@ -1,5 +1,5 @@
 import * as bgg from 'bgg-xml-api-client';
-import differenceWith from 'lodash.differencewith';
+import _ from 'lodash';
 
 async function getUser(userName) {
   const response = await bgg.getBggUser({ name: userName });
@@ -63,7 +63,7 @@ export async function loadFromBgg() {
       };
     });
   });
-  const shelvesDiff = differenceWith(
+  const shelvesDiff = _.differenceWith(
     shelvesMapped[0],
     shelvesMapped[1],
     (gameA, gameB) => {

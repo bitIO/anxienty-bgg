@@ -1,5 +1,6 @@
 import { loadFromBgg } from './bgg.mjs';
 import { loadFromFile, saveToFile } from './cache.mjs';
+import { exportData } from './export.mjs';
 import { generateMarkdownPlayMe } from './markdown.mjs';
 
 function hastBeenPlayedTogether(gameId, gameName, usersPlays) {
@@ -61,9 +62,8 @@ async function main() {
       });
     }
   });
-  console.log('GamesToPlay:', JSON.stringify(data.toBePlayed, null, 2));
-  saveToFile('./cache.json', data);
-  saveToFile('./2play.json', data.toBePlayed);
+
+  exportData(data);
   generateMarkdownPlayMe(data.toBePlayed);
 }
 
