@@ -63,13 +63,30 @@ export async function loadFromBgg() {
       };
     });
   });
-  const shelvesDiff = _.differenceWith(
+  const shelvesDiffLeft = _.differenceWith(
     shelvesMapped[0],
     shelvesMapped[1],
     (gameA, gameB) => {
       return gameA.id === gameB.id;
     }
   );
+  const shelvesDiffRight = _.differenceWith(
+    shelvesMapped[1],
+    shelvesMapped[0],
+    (gameA, gameB) => {
+      return gameA.id === gameB.id;
+    }
+  );
+
+  const shelvesDiff = shelvesDiffLeft.concat(shelvesDiffRight).sort((a, b) => {
+    if (a.name > b.name) {
+      return 1;
+    } else if (a.name < b.name) {
+      return -1;
+    } else {
+      return 0;
+    }
+  });
 
   return {
     shelvesDiff,

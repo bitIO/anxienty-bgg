@@ -1,3 +1,4 @@
+import json2csv from 'json2csv';
 import { saveToFile } from './cache.mjs';
 
 export function exportData(data) {
