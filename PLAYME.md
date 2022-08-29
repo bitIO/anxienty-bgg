@@ -1,7 +1,7 @@
 # GAMES TO PLAY
 
 
-Last updated 2022-08-29T08:56:57.054Z
+Last updated 2022-08-29T09:05:15.210Z
 
 ```json
 [
@@ -138,7 +138,7 @@ Last updated 2022-08-29T08:56:57.054Z
   {
     "game": {
       "id": "155362",
-      "name": "Ca$h &#039;n Guns: Second Edition"
+      "name": "Ca$h 'n Guns: Second Edition"
     },
     "plays": {
       "ccanado": 2,
@@ -328,7 +328,7 @@ Last updated 2022-08-29T08:56:57.054Z
   {
     "game": {
       "id": "207062",
-      "name": "Dungeons &amp; Dragons: Rock Paper Wizard"
+      "name": "Dungeons & Dragons: Rock Paper Wizard"
     },
     "plays": {
       "ccanado": 2,
@@ -378,7 +378,7 @@ Last updated 2022-08-29T08:56:57.054Z
   {
     "game": {
       "id": "151530",
-      "name": "Golf &#039;n&#039; Roll"
+      "name": "Golf 'n' Roll"
     },
     "plays": {
       "ccanado": 2,
@@ -428,7 +428,7 @@ Last updated 2022-08-29T08:56:57.054Z
   {
     "game": {
       "id": "235247",
-      "name": "Jim Henson&#039;s The Dark Crystal: Board Game"
+      "name": "Jim Henson's The Dark Crystal: Board Game"
     },
     "plays": {
       "ccanado": 0,
@@ -718,7 +718,7 @@ Last updated 2022-08-29T08:56:57.054Z
   {
     "game": {
       "id": "342479",
-      "name": "Orlog: Assassin&#039;s Creed Valhalla Dice Game"
+      "name": "Orlog: Assassin's Creed Valhalla Dice Game"
     },
     "plays": {
       "ccanado": 0,
@@ -898,7 +898,7 @@ Last updated 2022-08-29T08:56:57.054Z
   {
     "game": {
       "id": "20545",
-      "name": "Rory&#039;s Story Cubes"
+      "name": "Rory's Story Cubes"
     },
     "plays": {
       "ccanado": 0,
@@ -1018,7 +1018,7 @@ Last updated 2022-08-29T08:56:57.054Z
   {
     "game": {
       "id": "77130",
-      "name": "Sid Meier&#039;s Civilization: El juego de tablero"
+      "name": "Sid Meier's Civilization: El juego de tablero"
     },
     "plays": {
       "ccanado": 1,
@@ -1208,7 +1208,7 @@ Last updated 2022-08-29T08:56:57.054Z
   {
     "game": {
       "id": "46158",
-      "name": "Time&#039;s Up Academy 1"
+      "name": "Time's Up Academy 1"
     },
     "plays": {
       "ccanado": 0,
@@ -1218,7 +1218,7 @@ Last updated 2022-08-29T08:56:57.054Z
   {
     "game": {
       "id": "38713",
-      "name": "Time&#039;s Up! Edición Amarilla"
+      "name": "Time's Up! Edición Amarilla"
     },
     "plays": {
       "ccanado": 2,
@@ -1228,7 +1228,7 @@ Last updated 2022-08-29T08:56:57.054Z
   {
     "game": {
       "id": "88126",
-      "name": "Time&#039;s Up! Family"
+      "name": "Time's Up! Family"
     },
     "plays": {
       "ccanado": 0,
@@ -1258,7 +1258,7 @@ Last updated 2022-08-29T08:56:57.054Z
   {
     "game": {
       "id": "126163",
-      "name": "Tzolk&#039;in: El Calendario Maya"
+      "name": "Tzolk'in: El Calendario Maya"
     },
     "plays": {
       "ccanado": 0,

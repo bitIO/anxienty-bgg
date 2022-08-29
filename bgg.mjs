@@ -1,4 +1,5 @@
 import * as bgg from 'bgg-xml-api-client';
+import he from 'he';
 import _ from 'lodash';
 
 async function getUser(userName) {
@@ -26,6 +27,10 @@ async function getUserPlays(userName) {
     keepPooling = hasNextPage;
     page += 1;
   }
+  result = result.map((item) => {
+    item.item.name = he.decode(item.item.name);
+    return item;
+  });
 
   return result;
 }
@@ -36,6 +41,10 @@ async function getShelve(userName, own = false) {
     excludesubtype: 'boardgameexpansion',
     username: userName,
     own,
+  });
+  data.item = data.item.map((item) => {
+    item.name.text = he.decode(item.name.text);
+    return item;
   });
   return data;
 }
